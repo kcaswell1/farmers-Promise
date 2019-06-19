@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farmers' Promise</title>
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Quattrocento+Sans|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+    <body class="container">
+    <header data-aos="fade-down-right" class="main-header wrapper">
+        <div class="title"><a href="index.html">FARMERS' PROMISE</a></div>
+        <div class="dropdown">
+            <a href="Shop.html"></a><img src="img1/grocery.svg" class="dropbtn" >
+                <div class="dropdown-content">
+                    <a href="milk.html">Milk</a>
+                    <a href="eggs.html">Eggs</a>
+                    <a href="yogurt.html">Yogurt</a>
+                </div>
+            </div>
+    </header>
+    <!--  THIS IS THE SUBSCRIBE SECTION  -->
+    <div data-aos="fade-right" class="img1"></div>
+        <div data-aos="fade-up-right" class="container-2">
+            <h1>Join Our Community!</h1>
+            <form action="" class="subscribe">
+                First Name:
+                <input type="text">
+                <br>
+                Last Name:
+                <input type="text">
+                <br>
+                Email Address:
+                <input type="text">
+                <br>
+                <input type="submit">
+            </form>
+            <img src="img1/pic1.jpg" class="family">
+            <p>Groceries farmed by us and delivered to you.</p>
+        </div>
+    <!--  THIS IS DEMONSTRATING STEPS FOR PURCHASING  -->
+        <div data-aos="fade-up"  class="demo">
+        <h1>How To Order...</h1>
+        <div class="box">
+            <img src="img1/browse.svg" class="b-1"><p>Browse!</p>
+            <img src="img1/buy.svg" class="b-2"><p>Buy!</p>
+            <img src="img1/enjoy.svg" class="b-3"><p>Enjoy!</p>
+        </div>
+        </div>
+    <!--  THIS IS THE TESTAMONIAL SECTION  -->
+        <div data-aos="fade-up" class="testamonial">
+            <h1>Testamonials</h1>
+            <div data-aos="fade-left">
+            <img src="img1/testamonial1.jpg" class="test1">
+            <h2>Lilly P.</h2>
+            <p class="customer">Customer</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit qui quis sequi optio corrupti assumenda.</p>
+            <img src="img1/testamonial2.jpg" class="test2">
+            <h2>Scott L.</h2>
+            <p class="customer">Customer</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem veritatis beatae id odio, libero aliquam.</p>
+            </div>
+        </div>
+    <!--  THIS IS THE LOCATION SECTION  -->
+        <div data-aos="fade-up" class="location">
+            <h1>Where We Are Located</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quibusdam porro. 
+                Consequatur sit amet et fugit necessitatibus dolorem. Id, cumque.</p>
+            <img src="img1/map.png" class="map">
+        </div>        
+    </body>
+</html>
+
+<script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000,
+            delay: 100,
+            /*once: true,*/
+            disable: 'mobile'
+         });
+</script>
